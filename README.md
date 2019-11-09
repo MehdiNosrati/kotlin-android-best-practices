@@ -11,4 +11,4 @@ app:srcCompat
 -   If the  `popUpToInclusive`  attribute is  `false`  or is not set,  `popUpTo`  removes destinations up to the specified destination, but leaves the specified destination in the back stack.
 -   If  `popUpToInclusive`  is set to  `true`, the  `popUpTo`  attribute removes all destinations up to and  _including_  the given destination from the back stack.
 -   If  `popUpToInclusive`  is  `true`  and  `popUpTo`  is set to the app's starting location, the action removes  _all_  app destinations from the back stack. The Back button takes the user all the way out of the app.
--   Whatever code runs in onPause() blocks other things from displaying, so keep the code in onPause() lightweight. For example, if a phone call comes in, the code in onPause() may delay the incoming-call notification.
+-   Whatever code runs in `onPause()` blocks other things from displaying, so keep the code in `onPause()` lightweight. For example, if a phone call comes in, the code in `onPause()` may delay the incoming-call notification.
