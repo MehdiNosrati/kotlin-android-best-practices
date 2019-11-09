@@ -14,3 +14,4 @@ app:srcCompat
 ### lifecycle
 -   Whatever code runs in `onPause()` blocks other things from displaying, so keep the code in `onPause()` lightweight. For example, if a phone call comes in, the code in `onPause()` may delay the incoming-call notification.
 -   Your fragment will not be able to access the activity until activity `onCreate()` method is finished execution.
+-   In order to handle events based on lifcycle callbacks, use `Lifecycle` API to lower the weight on callback methods. 
